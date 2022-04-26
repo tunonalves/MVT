@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVT.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["/Users/tunonalves/Documents/ESTUDIOS/Python - Django/Python CoderHouse/Clase 18 - Django - Portfolio (parte 2)/MVT-TUNON/MVT/plantillas"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
