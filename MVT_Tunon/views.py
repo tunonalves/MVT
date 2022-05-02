@@ -12,3 +12,7 @@ def familiares(request):
     documento = plantilla.render(dicc2)
     return HttpResponse(documento)
 
+def inicio(request):
+    plantilla = loader.get_template("index.html")
+    documento = plantilla.render()
+    return HttpResponse(documento)
